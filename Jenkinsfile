@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch: 'main', url: 'https://github.com/syedowais247/your-repo-name.git'
+                git branch: 'main', url: 'https://github.com/devopsbyowais/django-todo.git'
             }
         }
 
